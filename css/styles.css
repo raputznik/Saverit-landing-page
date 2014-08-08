@@ -314,6 +314,106 @@ a {
 	color: #81898d;
 }
 
+.mobile {
+	display: none;
+}
+
+.hidden-nav {
+	display: none;
+}
+
+.hidden-social {
+	display: none;
+}
+
+/* =============== MEDIA QUERIES ==================== */
+
+@media screen and (max-width: 1022px) {
+	.mobile {
+		display: block;
+	}
+
+	.wide {
+		display: none;
+	}
+
+	.how-row-one {
+		max-width: 100%;
+		padding: 50px 0;
+	}
+
+	.icon-down {
+		padding-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 932px) {
+	.logo {
+		float: none;
+	}
+
+	.main-nav {
+		display: none;
+/*		padding: 0 20px;
+		float: none;
+*/	}
+
+}
+
+@media screen and (max-width: 700px) {
+	.intro-copy {
+		padding: 100px 20px;
+	}
+
+	.info-header {
+		padding-bottom: 0;
+	}
+
+	.intro-copy-two {
+		padding: 50px 20px 100px 20px;
+	}
+
+	.how-it-works-col img {
+		width: 100%;
+		height: 100%;
+		margin-left: 10%;
+
+	}
+
+	.social-icons {
+		display: none;
+	}
+
+	.footer-nav-container-left {
+	 float: none; 
+	/*text-align: left;*/
+	margin-top: 0;
+	}
+
+	.hidden-social {
+		display: inline-block;
+		margin: 20px 0 0 0;
+
+	}
+
+	.copyright {
+		margin-right: 90px;
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
