@@ -349,7 +349,9 @@ a {
 
 @media screen and (max-width: 932px) {
 	.logo {
-		float: none;
+		/*text-align: center;
+		float: none;*/
+		padding: 0 20%;
 	}
 
 	.main-nav {
@@ -370,7 +372,11 @@ a {
 	}
 
 	.intro-copy-two {
-		padding: 50px 20px 100px 20px;
+		padding: 10px 20px 100px 20px;
+	}
+
+	.preview-captions {
+		margin-bottom: 50px;
 	}
 
 	.how-it-works-col img {
@@ -405,6 +411,10 @@ a {
 @media screen and (max-width: 481px) {
 	.signup-button a {
 		padding: 20px 25px;
+	}
+
+	.anytime {
+	    /*margin-left: 26%;*/
 	}
 }
 
