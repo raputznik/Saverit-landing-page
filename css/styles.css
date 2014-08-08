@@ -409,13 +409,33 @@ a {
 }
 
 @media screen and (max-width: 481px) {
+	.inline-img {
+		margin: 0;
+	}
+
+	.logo {
+		float: left;
+		margin: 0px 10px 0px 30px;
+		padding: 0;
+	}
+
 	.signup-button a {
 		padding: 20px 25px;
 	}
 
-	.anytime {
-	    /*margin-left: 26%;*/
+/*	.anytime {
+	    margin-left: 26%;
+	}*/
+
+	.copyright {
+		margin-right: 10%;
+		text-align: center;
 	}
+
+	.bottom-data {
+		margin-top: 50px;
+	}
+
 }
 
 
