@@ -18,14 +18,14 @@
         		</div>
         		<ul class="inline-head main-nav">
         		    <li>about</li>
-        		    <li>how it works</li>
+        		    <li class="no-pad-anchor"><a href="#howItWorks" onClick="ScrollTo()">how it works</a></li>
         		    <li>contact us</li>
-        		    <li><a href="#">sign up</a></li>
-        		    <li class="grey-button"><a href="#">log in</a></li>
+        		    <li class="styled-buttons"><a href="#">sign up</a></li>
+        		    <li class="styled-buttons grey-button"><a href="#">log in</a></li>
         		</ul>
         	</div> <!-- End Masthead -->
 
-        	<div class="signup-area">
+        	<div class="signup-area" id="signup-area">
         		<div class="intro-copy"><p>Save all your favorite <span class="embolderen">links</span>, <span class="embolderen">videos</span> & <span class="embolderen">pictures
         		        		in one convenient, secure place.</span></p>
 	        	</div> <!-- End intro-copy -->
@@ -50,9 +50,6 @@
 	        		    <li>private</li>
 	        		</ul>
  -->	        	</div>
-	    		<div class="intro-copy-two"><p>Your privacy is our priority.  We never monitor your
-	interests or sell your personal info.  Period.</span></p>
-	        	</div> <!-- End intro-copy-two -->
 	        	<div class="signup-button">
 	        		<a href="#">Sign Up Now!</a>
 	        	</div>
@@ -71,9 +68,7 @@
 
             <div class="info-area"> <!-- Start Info Area -->
                 <div class="wide">
-                    
-                
-                <div class="info-header">
+                <div class="info-header" id="howItWorks">
                     <p>How it works</p>
                 </div>
                 <div class="how-it-works-col">
@@ -178,6 +173,11 @@
 
 <!-- ========== End Info Area (Mobile) ==================== -->
 
+                <div class="intro-copy-two"><p>Your privacy is our priority.  We never monitor your
+    interests or sell your personal info.  Period.</span></p>
+                </div> <!-- End intro-copy-two -->
+
+
                 <div class="signup-bottom">
                     <div class="intro-copy-two bottom-data"><p>Your data, your life, no fine print.</span></p>
                     </div> <!-- End intro-copy-two -->
@@ -225,7 +225,9 @@
 
         </div> <!-- End main-container -->
     <script src="js/jquery-1.10.2.js"></script>
-    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>    
+    <script src="js/anchor-animate.js"></script>
+    
 
         
     </body>
