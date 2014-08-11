@@ -58,14 +58,14 @@ a {
 .masthead {
 	position: relative;
 	background-color: #fff;
-	height: 109px;
+	height: 104px;
 }
 
 .signup-area {
 	/*background-color: #61b7e9;*/
 	background: #178fdc url('../images/sky-bg-02.png') no-repeat;
 	/*min-height: 1337px;*/
-	min-height: 1127px;
+	min-height: 687px;
 }
 
 .logo {
@@ -78,7 +78,7 @@ a {
 	font-size: 38px;
 	text-align: center;
 	max-width: 662px;
-	padding: 140px 0 100px 0;
+	padding: 50px 0;
 }
 
 .embolderen {
@@ -104,7 +104,7 @@ a {
 }
 
 .preview-captions {
-	margin: 20px 0;
+	margin: 20px 0 30px 0;
 	font-size: 30px;
 	font-weight: bold;
 }
@@ -116,10 +116,11 @@ a {
 }
 
 .intro-copy-two {
+	display: none;
 	margin: 0 auto;
 	font-size: 38px;
 	text-align: center;
-	max-width: 662px;	
+	max-width: 752px;	
 	padding: 50px 0;
 	color: #fff;
 	font-weight: bolder;
@@ -149,6 +150,7 @@ a {
 }
 
 .or-login {
+	/*display: none;*/
 	text-align: center;
 	margin: 50px 0;
 	font-size: 18px;
@@ -157,7 +159,7 @@ a {
 .learn-more, .icon-down {
 	text-align: center;
 	font-size: 21px;
-	margin: 10px 0 0 0;
+	margin: 40px 0 0 0;
 }
 
 .info-area {
@@ -324,6 +326,10 @@ a {
 
 .hidden-social {
 	display: none;
+}
+
+.bottom-button {
+	margin-top: 40px;
 }
 
 /* =============== MEDIA QUERIES ==================== */
